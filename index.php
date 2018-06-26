@@ -13,7 +13,7 @@ set_exception_handler(function ($e) {
 // assume JSON, handle requests by verb and path
 $verb = $_SERVER['REQUEST_METHOD'];
 
-// declare GET request response and database query response
+// declare GET request response and database query response 
 $getRequestResponse;
 $dbQueryResponse;
 
